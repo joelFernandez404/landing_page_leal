@@ -289,7 +289,7 @@ h6 {
     /* Offset for fixed header */
     min-height: calc(100vh - 76px);
     background-color: #e5e5e5;
-    background-image: url('brand-assets/fondo.png');
+    background-image: url('fondo.png');
     background-size: cover;
     background-position: left center;
     display: flex;
@@ -444,7 +444,7 @@ h6 {
     color: white;
     padding: 6rem 1rem;
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('brand-assets/TRIBU.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('TRIBU.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
