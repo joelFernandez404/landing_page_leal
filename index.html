@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leal Consultores | Asesoría que Transforma</title>
+
+    <!-- Google Fonts: Montserrat para un look moderno y corporativo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&display=swap"
+        rel="stylesheet">
+
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#inicio" class="logo">
+                <img src="brand-assets/logotipo.png" alt="Leal Constultores logotipo" class="nav-logotipo-img">
+                <img src="brand-assets/logo.png" alt="Leal Consultores Logo" class="nav-logo-img">
+            </a>
+
+            <button class="mobile-menu-toggle" id="menuToggle">
+                <i class="ph ph-list"></i>
+            </button>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#inicio" class="nav-link active">Inicio</a>
+                <a href="#servicios" class="nav-link">Servicios</a>
+                <a href="#firmas" class="nav-link">Firmas Electrónicas</a>
+                <a href="#testimonios" class="nav-link">Testimonios</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+            </nav>
+
+            <div class="nav-action">
+                <a href="https://api.whatsapp.com/send/?phone=593963857841&text=Hola%2C+quiero+agendar+una+asesor%C3%ADa+gratuita+con+Leal+Consultores&type=phone_number&app_absent=0"
+                    target="_blank" class="btn btn-primary btn-pill">Agendar asesoría</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="inicio" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        ASESORÍA QUE<br>
+                        TRANSFORMA,<br>
+                        <span class="text-red">EXPERIENCIA QUE<br>RESPALDA</span>
+                    </h1>
+
+                    <div class="hero-quote-box">
+                        <p class="hero-quote">"Detrás de cada número, hay una decisión que puede cambiar tu negocio"</p>
+                    </div>
+
+                    <a href="#contacto" class="btn btn-hero">
+                        <i class="ph ph-calendar-blank text-red"></i> AGENDAR UNA ASESORÍA
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre Nosotros Section -->
+        <section class="about section-padding">
+            <div class="container about-grid">
+                <div class="about-image">
+                    <!-- Placeholder para la imagen de la reunión -->
+                    <div class="image-placeholder">
+                        <img src="brand-assets/imagen-reunion.png" alt="Imaen de oficina">
+
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-subtitle">SOBRE NOSOTROS</span>
+                    <h2 class="section-title">Más que contadores, somos tus aliados estratégicos.</h2>
+                    <p class="about-text">En <strong>LEAL CONSULTORES</strong> hacemos más que gestionar números:
+                        protegemos tu patrimonio. Transformamos la contabilidad de una obligación legal en una
+                        herramienta de crecimiento empresarial.</p>
+
+                    <ul class="features-list">
+                        <li>
+                            <i class="ph ph-magnifying-glass text-red"></i>
+                            <span>Transparencia y Precisión</span>
+                        </li>
+                        <li>
+                            <i class="ph ph-shield-check text-red"></i>
+                            <span>Acompañamiento Cercano</span>
+                        </li>
+                        <li>
+                            <i class="ph ph-trend-up text-red"></i>
+                            <span>Responsabilidad y Compromiso</span>
+                        </li>
+                    </ul>
+
+                    <a href="#clientes" class="btn btn-primary mt-4">Descubre nuestros clientes &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filosofía (Tribu Leal) -->
+        <section class="philosophy">
+            <div class="container philosophy-content text-center">
+                <span class="section-subtitle text-red-dark">NUESTRA FILOSOFÍA</span>
+                <h2 class="huge-title">TRIBU LEAL</h2>
+                <p class="philosophy-text">
+                    Ser parte de la Tribu Leal significa no caminar solo en el complejo mundo financiero. Somos un grupo
+                    unido por valores comunes: la honestidad en los números y la lealtad a los sueños de cada
+                    emprendedor o empresa. Aquí, la lealtad no es solo una palabra, es la base de una relación duradera
+                    que busca el crecimiento colectivo.
+                </p>
+                <a href="https://www.tiktok.com/@leal.consultores?is_from_webapp=1&sender_device=pc" target="_blank"
+                    class="btn btn-primary btn-large mt-4">Únete a Tribu Leal</a>
+            </div>
+        </section>
+
+        <!-- Servicios Especializados -->
+        <section id="servicios" class="services section-padding bg-light">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title">Nuestros Servicios Especializados</h2>
+                    <p class="section-desc">Soluciones diseñadas para la realidad empresarial en Ecuador.</p>
+                </div>
+
+                <div class="services-cards">
+                    <!-- Tarjeta 1 -->
+                    <div class="service-card">
+                        <div class="service-icon-3d">
+                            <img src="brand-assets/icon-planificacion.png" alt="Planificacion">
+                        </div>
+                        <h3>Planificación & Gestión Empresarial</h3>
+                        <ul class="service-list">
+                            <li><i class="ph ph-briefcase text-red"></i> Asesoría empresarial</li>
+                            <li><i class="ph ph-trend-up text-red"></i> Gestión financiera</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a href="https://api.whatsapp.com/send/?phone=593963857841&text=Hola%2C+quiero+m%C3%A1s+informaci%C3%B3n+acerca+de+los+servicios+de+Planificacion+Empresarial+que+ofrece+Leal+Consultores&type=phone_number&app_absent=0"
+                                target="_blank" class="btn btn-primary btn-block">Consultar</a>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta 2 -->
+                    <div class="service-card">
+                        <div class="service-icon-3d">
+                            <img class="ph-fill ph-calculator" src="brand-assets/icon-contable.png" alt="Contable">
+                        </div>
+                        <h3>Operaciones Contables & Control Interno</h3>
+                        <ul class="service-list">
+                            <li><i class="ph ph-calculator text-red"></i> Outsourcing contable</li>
+                            <li><i class="ph ph-chart-bar text-red"></i> Contabilidad de costos</li>
+                            <li><i class="ph ph-package text-red"></i> Gestión de inventarios</li>
+                            <li><i class="ph ph-file-text text-red"></i> Gestión de activos fijos</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a href="https://api.whatsapp.com/send/?phone=593963857841&text=Hola%2C+quiero+m%C3%A1s+informaci%C3%B3n+acerca+de+los+servicios+de+operaciones+contables+y+control+interno+que+ofrece+Leal+Consultores&type=phone_number&app_absent=0"
+                                target="_blank" class="btn btn-primary btn-block">Consultar</a>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta 3 -->
+                    <div class="service-card">
+                        <div class="service-icon-3d">
+                            <img class="ph-fill ph-shield-check" src="brand-assets/icon-tributario.png"
+                                alt="Tributario">
+                        </div>
+                        <h3>Cumplimiento Tributario & Optimización</h3>
+                        <ul class="service-list">
+                            <li><i class="ph ph-shield-check text-red"></i> Auditorías internas y externas</li>
+                            <li><i class="ph ph-bank text-red"></i> Declaraciones de impuestos</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a href="https://api.whatsapp.com/send/?phone=593963857841&text=Hola%2C+quiero+m%C3%A1s+informaci%C3%B3n+acerca+de+los+servicios+de+cumplimiento+tributario+que+ofrece+Leal+Consultores&type=phone_number&app_absent=0"
+                                target="_blank" class="btn btn-primary btn-block">Consultar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services-cards extra-services" id="extraServices" style="display: none; margin-top: 2rem;">
+                    <!-- Tarjeta 4 -->
+                    <div class="service-card">
+                        <div class="service-icon-3d">
+                            <img class="ph-fill ph-buildings" src="brand-assets/icon-corporativa.png" alt="Corporativo">
+                        </div>
+                        <h3>Estructura Corporativa & Talento Humano</h3>
+                        <ul class="service-list">
+                            <li><i class="ph ph-buildings text-red"></i> Constitución y liquidación de empresas</li>
+                            <li><i class="ph ph-users text-red"></i> Gestión de recursos humanos</li>
+                            <li><i class="ph ph-hard-hat text-red"></i> Seguridad y salud ocupacional</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a href="https://api.whatsapp.com/send/?phone=593963857841&text=Hola%2C+quiero+m%C3%A1s+informaci%C3%B3n+acerca+de+los+servicios+de+estructura+corporativa+y+talento+humano+que+ofrece+Leal+Consultores&type=phone_number&app_absent=0"
+                                target="_blank" class="btn btn-primary btn-block">Consultar</a>
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta 5 -->
+                    <div class="service-card">
+                        <div class="service-icon-3d">
+                            <img class="ph-fill ph-scales" src="brand-assets/icon-legal.png" alt="Legal">
+                        </div>
+                        <h3>Servicios Legales</h3>
+                        <ul class="service-list">
+                            <li><i class="ph ph-scales text-red"></i> Mercantil — Gestión y estructuración jurídica de
+                                empresas</li>
+                            <li><i class="ph ph-file-text text-red"></i> Civil — Redacción de contratos y soporte legal
+                            </li>
+                            <li><i class="ph ph-bank text-red"></i> Público — Asesoría en contratación pública y
+                                procesos estatales</li>
+                        </ul>
+                        <div class="card-footer">
+                            <a href="https://api.whatsapp.com/send/?phone=593963857841&text=Hola%2C+quiero+m%C3%A1s+informaci%C3%B3n+acerca+de+los+servicios+de+servicios+legales+que+ofrece+Leal+Consultores&type=phone_number&app_absent=0"
+                                target="_blank" class="btn btn-primary btn-block">Consultar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-5">
+                    <button class="btn btn-outline-red" id="toggleServicesBtn">Ver todos los servicios <i
+                            class="ph ph-caret-down"></i></button>
+                </div>
+
+                <!-- Banner CTA -->
+                <div class="cta-banner mt-5">
+                    <div class="cta-banner-text">
+                        <h3>¿Tu empresa necesita una estructura financiera sólida?</h3>
+                        <p>Hagámoslo realidad juntos.</p>
+                    </div>
+                    <a href="https://api.whatsapp.com/send/?phone=593963857841&text=Hola%2C+quiero+m%C3%A1s+informaci%C3%B3n+acerca+de+agendar+un+servicio+con+Leal+Consultores&type=phone_number&app_absent=0"
+                        class="btn btn-primary">Agenda un Servicio &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Instituciones -->
+        <section class="institutions section-padding">
+            <div class="container text-center">
+                <h2 class="section-title">Instituciones con las que trabajamos</h2>
+                <p class="section-desc">Gestionamos tus trámites ante las principales entidades regulatorias del Ecuador
+                </p>
+
+                <div class="carousel-container mt-5">
+                    <div class="carousel-track">
+                        <!-- Placeholders para logos -->
+                        <div class="inst-logo">
+                            <div class="placeholder-box"><img src="brand-assets/logo-ministerio-trabajo.png"
+                                    alt="Logo Ministerio de Trabajo"></div>
+                        </div>
+                        <div class="inst-logo">
+                            <div class="placeholder-box"><img src="brand-assets/super.png" alt="Superintendencia"></div>
+                        </div>
+                        <div class="inst-logo">
+                            <div class="placeholder-box"><img src="brand-assets/sri.png" alt="SRI"></div>
+                        </div>
+                        <div class="inst-logo">
+                            <div class="placeholder-box"><img src="brand-assets/iess.png" alt="IESS"></div>
+                        </div>
+                        <!-- Duplicados para scroll infinito -->
+                        <div class="inst-logo">
+                            <div class="placeholder-box"><img src="brand-assets/logo-ministerio-trabajo.png"
+                                    alt="Ministerio de Trabajo"></div>
+                        </div>
+                        <div class="inst-logo">
+                            <div class="placeholder-box"><img src="brand-assets/super.png" alt="Superintendencia"></div>
+                        </div>
+                        <div class="inst-logo">
+                            <div class="placeholder-box"><img src="brand-assets/sri.png" alt="SRI"></div>
+                        </div>
+                        <div class="inst-logo">
+                            <div class="placeholder-box"><img src="brand-assets/iess.png" alt="IESS"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Firmas Electrónicas -->
+        <section id="firmas" class="signatures section-padding bg-light">
+            <div class="container text-center">
+                <span class="badge-red"><i class="ph ph-pen-nib"></i> Firma Electrónica</span>
+                <h2 class="section-title mt-3">Simplifica tu flujo de trabajo</h2>
+                <p class="section-desc">Firma documentos de manera legal, rápida y segura desde cualquier lugar. Elige
+                    el plan que mejor se adapte a tu negocio.</p>
+
+                <div class="pricing-cards mt-5">
+                    <!-- Plan 1 -->
+                    <div class="pricing-card">
+                        <div class="pricing-icon"><img class="ph-fill ph-user" src="brand-assets/icon-emprendedor.png"
+                                alt="Emprendedora"></div>
+                        <h3>Emprendedores / Individuales</h3>
+                        <p class="pricing-desc">Ideal para uso personal o pequeños negocios que están comenzando.</p>
+
+                        <div class="plan-details">
+                            <p class="plan-label">PLANES INCLUIDOS</p>
+                            <ul>
+                                <li><i class="ph ph-check text-red"></i> 7 días <span class="price">$6.99</span></li>
+                                <li><i class="ph ph-check text-red"></i> 15 días <span class="price">$8.99</span></li>
+                                <li><i class="ph ph-check text-red"></i> 30 días <span class="price">$11.99</span></li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-outline-red btn-block mt-4"
+                            onclick="window.location.href='https://api.whatsapp.com/send/?phone=593963857841&text=Hola%2C+quiero+m%C3%A1s+informaci%C3%B3n+acerca+de+adquirir+una+Firma+electr%C3%B3nica+con+Leal+Consultores&type=phone_number&app_absent=0'">Elegir
+                            Plan</button>
+                    </div>
+
+                    <!-- Plan 2 (Recomendado) -->
+                    <div class="pricing-card highlighted">
+                        <div class="recommended-badge">RECOMENDADO</div>
+                        <div class="pricing-icon"><img class="ph-fill ph-storefront" src="brand-assets/icon-pyme.png"
+                                alt="PyME"></div>
+                        <h3>PyMEs / Negocios en Crecimiento</h3>
+                        <p class="pricing-desc">Planes pensados para impulsar la eficiencia operativa y escalar tu
+                            negocio.</p>
+
+                        <div class="plan-details">
+                            <p class="plan-label">PLANES INCLUIDOS</p>
+                            <ul>
+                                <li><i class="ph ph-check text-red"></i> 1 año <span class="price">$17.99</span></li>
+                                <li><i class="ph ph-check text-red"></i> 2 años <span class="price">$29.99</span></li>
+                                <li><i class="ph ph-check text-red"></i> 3 años <span class="price">$43.99</span></li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-primary btn-block mt-4"
+                            onclick="window.location.href='https://api.whatsapp.com/send/?phone=593963857841&text=Hola%2C+quiero+m%C3%A1s+informaci%C3%B3n+acerca+de+adquirir+una+Firma+electr%C3%B3nica+con+Leal+Consultores&type=phone_number&app_absent=0'">Elegir
+                            Plan</button>
+                    </div>
+
+                    <!-- Plan 3 -->
+                    <div class="pricing-card">
+                        <div class="pricing-icon"><img class="ph-fill ph-buildings"
+                                src="brand-assets/icon-corporativo.png"></div>
+                        <h3>Corporativo / Grandes Empresas</h3>
+                        <p class="pricing-desc">Soluciones robustas para necesidades complejas a nivel empresarial.</p>
+
+                        <div class="plan-details">
+                            <p class="plan-label">PLANES INCLUIDOS</p>
+                            <ul>
+                                <li><i class="ph ph-check text-red"></i> 4 años <span class="price">$56.99</span></li>
+                                <li><i class="ph ph-check text-red"></i> 5 años <span class="price">$66.99</span></li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-outline-red btn-block mt-4"
+                            onclick="window.location.href='https://api.whatsapp.com/send/?phone=593963857841&text=Hola%2C+quiero+m%C3%A1s+informaci%C3%B3n+acerca+de+adquirir+una+Firma+electr%C3%B3nica+con+Leal+Consultores&type=phone_number&app_absent=0'">Elegir
+                            Plan</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonios -->
+        <section id="testimonios" class="testimonials section-padding">
+            <div class="container">
+                <h2 class="section-title text-center mb-5">Lo que dicen nuestros clientes</h2>
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-box">
+                        <div class="stars">
+                            <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                                class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                                class="ph-fill ph-star"></i>
+                        </div>
+                        <p class="quote">"Gracias a Leal Consultores dejé de preocuparme por las multas del SRI. Ahora
+                            mis declaraciones están siempre al día."</p>
+                        <div class="author">
+                            <strong>María López</strong>
+                            <span>Dueña de restaurante en Quito</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-box">
+                        <div class="stars">
+                            <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                                class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                                class="ph-fill ph-star"></i>
+                        </div>
+                        <p class="quote">"La facturación electrónica era un dolor de cabeza hasta que los contraté.
+                            Servicio impecable y muy profesional."</p>
+                        <div class="author">
+                            <strong>Carlos Mendoza</strong>
+                            <span>Director de agencia de marketing</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-box">
+                        <div class="stars">
+                            <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                                class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i
+                                class="ph-fill ph-star"></i>
+                        </div>
+                        <p class="quote">"Me ayudaron a optimizar mis impuestos de forma legal. Ahorro significativo
+                            desde el primer mes de trabajo juntos."</p>
+                        <div class="author">
+                            <strong>Andrea Paredes</strong>
+                            <span>Emprendedora e-commerce</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clientes -->
+        <section id="clientes" class="clients section-padding bg-light">
+            <div class="container text-center">
+                <span class="section-subtitle text-red">NUESTROS CLIENTES</span>
+                <h2 class="section-title">Empresas que confían en nosotros</h2>
+                <p class="section-desc">Gestionamos la contabilidad y operaciones de empresas de diversos sectores en
+                    Ecuador.</p>
+
+                <div class="carousel-container mt-5">
+                    <div class="carousel-track carousel-reverse">
+                        <div class="client-logo">
+                            <div class="placeholder-box"><img src="brand-assets/american-mobile.png"
+                                    alt="American Mobile"></div>
+                        </div>
+                        <div class="client-logo">
+                            <div class="placeholder-box"><img src="brand-assets/cliente-aba.jpeg" alt="ABA"></div>
+                        </div>
+                        <div class="client-logo">
+                            <div class="placeholder-box"><img src="brand-assets/cliente-novaterra.png"
+                                    alt="Novaterrabro"></div>
+                        </div>
+                        <div class="client-logo bg-black">
+                            <div class="placeholder-box text-white"><img src="brand-assets/cliente-ivauto.jpeg"
+                                    alt="Ivauto"></div>
+                        </div>
+                        <div class="client-logo">
+                            <div class="placeholder-box"><img src="brand-assets/cliente-pic.jpeg" alt="PicTours"></div>
+                        </div>
+                        <div class="client-logo">
+                            <div class="placeholder-box"><img src="brand-assets/cliente-chacra.jpeg" alt="La Chacra">
+                            </div>
+                        </div>
+                        <div class="client-logo">
+                            <div class="placeholder-box"><img src="brand-assets/cliente-caserita.png" alt="Caserita">
+                            </div>
+                        </div>
+                        <div class="client-logo">
+                            <div class="placeholder-box"><img src="brand-assets/cliente-cacao-.jpeg"
+                                    alt="El Cacao de Iker"></div>
+                        </div>
+                        <div class="client-logo">
+                            <div class="placeholder-box"><img src="brand-assets/cliente-wiflai.jpeg" alt="WIFLAI"></div>
+                        </div>
+
+                        <!-- Duplicados para scroll infinito -->
+                        <div class="client-logo">
+                            <div class="placeholder-box"><img src="brand-assets/american-mobile.png"
+                                    alt="American Mobile"></div>
+                        </div>
+                        <div class="client-logo">
+                            <div class="placeholder-box"><img src="brand-assets/cliente-aba.jpeg" alt="ABA"></div>
+                        </div>
+                        <div class="client-logo">
+                            <div class="placeholder-box"><img src="brand-assets/cliente-novaterra.png"
+                                    alt="Novaterrabro"></div>
+                        </div>
+                        <div class="client-logo bg-black">
+                            <div class="placeholder-box text-white"><img src="brand-assets/cliente-ivauto.jpeg"
+                                    alt="Ivauto"></div>
+                        </div>
+                        <div class="client-logo">
+                            <div class="placeholder-box"><img src="brand-assets/cliente-pic.jpeg" alt="PicTours"></div>
+                        </div>
+                        <div class="client-logo">
+                            <div class="placeholder-box"><img src="brand-assets/cliente-chacra.jpeg" alt="La Chacra">
+                            </div>
+                        </div>
+                        <div class="client-logo">
+                            <div class="placeholder-box"><img src="brand-assets/cliente-caserita.png" alt="Caserita">
+                            </div>
+                        </div>
+                        <div class="client-logo">
+                            <div class="placeholder-box"><img src="brand-assets/cliente-cacao-.jpeg"
+                                    alt="El Cacao de Iker"></div>
+                        </div>
+                        <div class="client-logo">
+                            <div class="placeholder-box"><img src="brand-assets/cliente-wiflai.jpeg" alt="WIFLAI"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Consulta Gratuita -->
+        <section class="free-consultation section-padding">
+            <div class="container text-center">
+                <h2 class="section-title text-white">¿Listo para transformar tu negocio?</h2>
+                <p class="section-desc text-white mt-3"
+                    style="opacity: 0.9; margin-bottom: 2.5rem; max-width: 700px; margin-left: auto; margin-right: auto;">
+                    Agenda tu consulta gratuita y uno de nuestros especialistas evaluará tus necesidades contables,
+                    financieras o tributarias sin compromiso.
+                </p>
+                <!-- Reemplaza el # con el link a tu formulario de Google, Typeform, etc. -->
+                <a href="#" target="_blank" class="btn btn-light btn-large">
+                    Agendar Consulta Gratuita <i class="ph ph-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contacto" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Columna 1 -->
+                <div class="footer-brand">
+                    <img src="brand-assets/logo-leal-black.png" alt="Leal Consultores" class="footer-logo">
+                    <p>Asesoría contable y tributaria de<br>confianza para empresas ecuatorianas.</p>
+                </div>
+
+                <!-- Columna 2 -->
+                <div class="footer-contact">
+                    <h4>CONTACTO</h4>
+                    <ul>
+                        <li><i class="ph ph-map-pin"></i> Quito, Ecuador</li>
+                        <li><i class="ph ph-phone"></i> +593 96 385 7841</li>
+                        <li><i class="ph ph-envelope-simple"></i> info@lealconsultoresec.com</li>
+                    </ul>
+                </div>
+
+                <!-- Columna 3 -->
+                <div class="footer-social">
+                    <h4>SÍGUENOS</h4>
+                    <ul>
+                        <li><a href="https://www.tiktok.com/@leal.consultores?is_from_webapp=1&sender_device=pc"
+                                target="_blank"><i class="ph ph-tiktok-logo"></i> TikTok</a></li>
+                        <li><a href="https://www.instagram.com/leal_consultores.ec" target="_blank"><i
+                                    class="ph ph-instagram-logo"></i>
+                                Instagram</a></li>
+                        <li><a href="https://api.whatsapp.com/send/?phone=593963857841&text=Hola%2C+quiero+comunicarme+con+Leal+Consultores&type=phone_number&app_absent=0"
+                                target="_blank"><i class="ph ph-whatsapp-logo"></i> WhatsApp</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom text-center">
+                <p>&copy; 2026 Leal Consultores. Todos los derechos reservados.</p>
+                <p class="mt-2" style="font-size: 0.8rem; color: #777;">Powered by <strong>Leal Tech</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Chat Avatar -->
+    <div class="floating-chat">
+        <div class="avatar-container">
+            <!-- Using a standard icon/emoji for the avatar since I don't have the 3d model -->
+            <div class="avatar-img"><a
+                    href="https://api.whatsapp.com/send/?phone=593963857841&text=Hola%2C+quiero+comunicarme+con+Leal+Consultores&type=phone_number&app_absent=0"
+                    target="_blank"><img src="brand-assets/avatar_leal.png" alt="Leal Consultores"></a></div>
+            <div class="chat-badge"><i class="ph-fill ph-chat-circle"></i></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
