@@ -970,37 +970,130 @@ h6 {
    CONSULTA GRATUITA (CTA)
 ========================================= */
 .free-consultation {
-    background-color: var(--clr-red);
-    color: white;
+    padding: 6rem 0;
+    position: relative;
+    overflow: hidden;
 }
 
-.free-consultation .section-title {
-    color: white;
+.consultation-card {
+    background: linear-gradient(135deg, var(--clr-red) 0%, var(--clr-red-dark) 100%);
+    padding: 5rem 3rem;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(185, 28, 34, 0.3);
+    z-index: 1;
 }
 
-.btn-light {
+.consultation-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.consultation-icon {
+    font-size: 4.5rem;
+    color: rgba(255, 255, 255, 0.95);
+    margin-bottom: 2rem;
+    display: inline-block;
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.2));
+    animation: pulse-soft 3s infinite ease-in-out;
+}
+
+@keyframes pulse-soft {
+    0%, 100% { transform: scale(1); opacity: 0.95; }
+    50% { transform: scale(1.05); opacity: 1; }
+}
+
+.consultation-card .section-title {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+}
+
+.consultation-card .section-desc {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin-bottom: 3.5rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.consultation-card .section-desc strong {
+    color: white;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.btn-white {
     background-color: white;
     color: var(--clr-red);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    padding: 1rem 2rem;
-    font-family: var(--font-main);
-    font-weight: 700;
-    text-transform: uppercase;
-    border-radius: var(--border-radius);
-    transition: var(--transition);
-    cursor: pointer;
-    border: none;
-    font-size: 1.1rem;
-    text-decoration: none;
+    padding: 1.2rem 3rem;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.btn-light:hover {
-    background-color: #f9f9f9;
-    transform: translateY(-3px);
-    box-shadow: var(--shadow-lg);
+.btn-white:hover {
+    background-color: #ffffff;
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+    color: var(--clr-red-dark);
+}
+
+.btn-glow {
+    position: relative;
+    z-index: 1;
+}
+
+.btn-glow::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-radius: 50px;
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.4s;
+    transform: scale(1);
+}
+
+.btn-glow:hover::after {
+    opacity: 0.4;
+    transform: scale(1.2);
+}
+
+/* Background Decorations */
+.consultation-deco {
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(to bottom right, rgba(255,255,255,0.1), transparent);
+    z-index: 0;
+}
+
+.deco-1 {
+    width: 400px;
+    height: 400px;
+    top: -150px;
+    right: -100px;
+}
+
+.deco-2 {
+    width: 250px;
+    height: 250px;
+    bottom: -80px;
+    left: -50px;
+    background: linear-gradient(to top left, rgba(255,255,255,0.15), transparent);
 }
 
 .text-white {
@@ -1026,6 +1119,10 @@ h6 {
 
     .pricing-card.highlighted {
         transform: none;
+    }
+
+    .consultation-card {
+        padding: 4rem 2rem;
     }
 }
 
@@ -1068,5 +1165,24 @@ h6 {
     .footer-content {
         grid-template-columns: 1fr;
         gap: 2rem;
+    }
+
+    .consultation-card {
+        padding: 3.5rem 1.5rem;
+        border-radius: 20px;
+    }
+
+    .consultation-card .section-title {
+        font-size: 2rem;
+    }
+
+    .consultation-card .section-desc {
+        font-size: 1.1rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .consultation-icon {
+        font-size: 3.5rem;
+        margin-bottom: 1.5rem;
     }
 }
